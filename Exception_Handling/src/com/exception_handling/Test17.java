@@ -1,6 +1,6 @@
 package com.exception_handling;
 
-class AgeVerificationFailedException extends RuntimeException{
+class AgeVerificationFailedException extends Exception{
 	private String msg;
 	
 	AgeVerificationFailedException(String msg){
